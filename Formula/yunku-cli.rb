@@ -2,13 +2,13 @@ class YunkuCli < Formula
   desc "Yunku CLI"
   homepage "https://github.com/gokuai/yunku-cli"
   url "https://github.com/gokuai/yunku-cli/releases/download/v1.0.1/ykc-darwin-amd64.tar.gz"
-  sha256 "92f6ebac5480be4a4dafbc5ecd37da38e33c66b90b3e00d5abbd78d4ad3a735c"
+  sha256 "053a581ced0263efac610bbb2a6517f9d7f54facdc26283ae99bb0d1ee213de4"
   license "Apache-2.0"
 
 
   resource "skills" do
     url "https://github.com/gokuai/yunku-cli/releases/download/v1.0.1/ykc-skills.zip"
-    sha256 "05828698611ba9fd9194939e62ce52e93981497b0493c0c1cec3c191f701f6f3"
+    sha256 "7105dc160dbacb3210cd6e05044141313100a4e794cf2362f7bd5f7286c21454"
   end
 
   def install
